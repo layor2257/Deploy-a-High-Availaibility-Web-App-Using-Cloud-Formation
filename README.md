@@ -16,5 +16,5 @@ I deployed a high availability web server for a high availability web app using 
 ```
 
 ### Connecting to the EC2 Instance via Bastion host for troubleshooting purpose ###
-I made deployed Bastion Host as part of the resource to allow me connect to the instance for troubleshooting purpose in the private subnet using the SSH agent. This would allows me to connect to the other instance from the Bastion and also avoid stroing the private key on the Bastion Template. The SSH agent is a service that keeps track of the user identity keys.
+I also deployed Bastion Host as part of the resource to allow me connect to the instance for troubleshooting purposes in the private subnet using the SSH agent. This would allows me to connect to the other instance from the Bastion and also avoid stroing the private key on the Bastion Template. The SSH agent is a service that keeps track of the user identity keys.
 
